@@ -1,0 +1,187 @@
+.assessment{
+    align-items: center;
+}
+
+@media screen and (max-width: 599px) {
+    form{
+        max-width: 600px;
+        text-align: left;
+        width: 100%0;
+
+    }
+    input,
+    select.
+    textarea {
+        width: 100%;
+    }
+label{
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    form{
+        display: grid;
+        grid-template-columns: auto;
+        width: 600px;
+    }
+    label{
+        display: grid;
+    }
+    input,
+    select,
+    textarea {
+        display: grid;
+        width: 600px;
+    }
+
+    .name-container {
+        display: grid;
+        grid-template-columns: 600px;
+        box-sizing: border-box;
+    }
+
+    .pet-type-container{
+        display: grid;
+        box-sizing: border-box;
+        grid-template-columns: 600px;
+    }
+
+    .pet-bio-container{
+        display: grid;
+        box-sizing: border-box;
+        grid-template-columns: 600px;
+    }
+
+    .pet-owner-email-container{
+        display: grid;
+        box-sizing: border-box;
+        grid-template-columns: 600px;
+    }
+
+    .submission-button-container{
+        display: grid;
+        grid-template-columns: 600px;
+    }
+
+    .reset-button-container{
+        display: grid;
+        grid-template-columns: 600px;
+    }
+}
+
+.card{
+    width: 344px;
+    background: white;
+    border-radius: 40px grey;
+    margin: 194px;
+    margin: 0 auto;
+    border-color: #cccccc;
+    border-style: solid;
+    border-width: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 15px 0 grey;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: inherit;
+}
+
+.card-container{
+    border-radius: 16px;
+    background-size: 100% auto;
+
+}
+
+.desert{
+    max-width: inherit;
+    height: 194px;
+    /* border-radius: 5px 5px 0 0; */
+    transition: .1s;
+    top: 100%;
+    object-fit: fill;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 16px;
+    color: #232f34
+}
+
+h3{
+    position: relative;
+    top: -50px;
+    left: 50px;
+    color: #000;
+    font-size: 22px;
+    bottom: 300px;
+    text-align: left;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50px;
+    text-align: left;
+    position: relative;
+    top: -60px;
+    color:#232f34
+
+}
+
+img{
+    content: url(/images/desert.jpg);
+    height: 194px;
+    position: relative;
+    top: -200px;
+    width: 100% max-content;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    /* filter: blur(4px); */
+
+    /* display: flex;
+    object-fit: cover;
+    grid-template-rows: max-content 200px 1fr; */
+
+}
+
+.desert{
+    /* max-width: fit-content; */
+    justify-content: stretch;
+    display: flex;
+    object-fit: cover;
+    grid-template-rows: max-content 200px 1fr;
+    width: 324px;
+}
+
+.card:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    filter: blur(4px);
+    background-position: 0 2px;
+}
+
+
+
+.person{
+    content: url(/images/person-avatar.jpg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    top: 20px;
+    margin-left: 5px;
+
+}
+
+body{
+    padding: 16px;
+    background: white;
+}
+
+.greyhound-text{
+    position: relative;
+    top: -50px;
+    text-align: left;
+    margin-left: 10px;
+}
